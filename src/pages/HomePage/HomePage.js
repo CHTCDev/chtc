@@ -72,7 +72,7 @@ function HomePage() {
               className="h-[10rem] object-contain pl-[10%]"
             />
             <h1 className="text-mainHeading text-white font-bold mobile:text-seconderyHeading">
-              Precision Cure to Compassionate Care! - Hello Vercel
+              Precision Cure to Compassionate Care!
             </h1>
             <p className="text-para font-normal text-white">
               City Hospital and Trauma Centre excels in advanced techniques &
