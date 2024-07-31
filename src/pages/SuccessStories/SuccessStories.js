@@ -4,6 +4,15 @@ import img1 from "../../assests/images/Rectangle 276.png";
 import img2 from "../../assests/images/Rectangle 278.png";
 import img3 from "../../assests/images/Rectangle 279.png";
 import OurGoalsBanner from "../../utils/OurGoalsBanner";
+import video from "../../assests/videos/WhatsApp Video 2024-07-31 at 1.39.07 PM.webm";
+import video1 from "../../assests/videos/WhatsApp Video 2024-07-31 at 1.39.07 PM (1).webm";
+import video2 from "../../assests/videos/6.webm";
+import video3 from "../../assests/videos/5.webm";
+import video4 from "../../assests/videos/4.webm";
+import video5 from "../../assests/videos/3.webm";
+import video6 from "../../assests/videos/2.webm";
+import poster from "../../assests/videos/Screenshot 2024-07-31 154929.png";
+import LazyLoad from "react-lazy-load";
 function SuccessStories() {
   return (
     <div className="pagecss gap-[2rem]">
@@ -11,7 +20,52 @@ function SuccessStories() {
         <h2 className="text-mainHeading font-bold text-navy-blue">
           Success Stories
         </h2>
-        <span>
+        <div className="w-full py-4  grid grid-cols-3 gap-4 mobile:grid-cols-1">
+          <LazyLoad>
+            <video controls controlsList="nodownload" poster={poster}>
+              <source src={video2} type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
+          </LazyLoad>
+          <LazyLoad>
+            <video controls controlsList="nodownload" poster={poster}>
+              <source src={video3} type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
+          </LazyLoad>
+          <LazyLoad>
+            <video controls controlsList="nodownload" poster={poster}>
+              <source src={video4} type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
+          </LazyLoad>
+          <LazyLoad>
+            <video controls controlsList="nodownload" poster={poster}>
+              <source src={video5} type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
+          </LazyLoad>
+          <LazyLoad>
+            <video controls controlsList="nodownload" poster={poster}>
+              <source src={video6} type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
+          </LazyLoad>
+          <LazyLoad>
+            <video controls controlsList="nodownload" poster={poster}>
+              <source src={video} type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
+          </LazyLoad>
+          <LazyLoad>
+            <video controls controlsList="nodownload" poster={poster}>
+              <source src={video1} type="video/webm" />
+              Your browser does not support the video tag.
+            </video>
+          </LazyLoad>
+        </div>
+
+        {/* <span>
           <h6 className="text-normalHeading font-bold text-black-shade">
             {" "}
             CASE 1
@@ -87,9 +141,9 @@ function SuccessStories() {
               className="h-[28rem] w-full object-cover rounded-md"
             />
           </div>
-        </div>
+        </div> */}
       </div>{" "}
-      <div className="w-10/12 py-4 ">
+      {/* <div className="w-10/12 py-4 ">
         <span>
           <h6 className="text-normalHeading font-bold text-black-shade">
             {" "}
@@ -246,7 +300,7 @@ function SuccessStories() {
             />
           </div>
         </div>
-      </div>
+      </div> */}
       <div className=" w-10/12 py-4">
         <OurGoalsBanner />
       </div>

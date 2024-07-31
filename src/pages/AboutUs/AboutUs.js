@@ -2,6 +2,8 @@ import React from "react";
 import aboutimg2 from "../../assests/images/gallery/DJI_0719 .webp";
 import aboutimg1 from "../../assests/images/Rectangle 284.png";
 import RajeshMehta from "../../assests/images/2.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 function AboutUs() {
   return (
     <div className="pagecss gap-[3rem]">
@@ -50,11 +52,14 @@ function AboutUs() {
           </p>
         </div>
         <div className="flexcenter">
-          <img
+          <LazyLoadImage
             src={aboutimg2}
-            alt="about"
+            alt="gallery"
             className="h-[28rem] w-[90%] object-cover rounded mobile:w-[100%] mobile:h-[15rem]"
-            loading="lazy"
+            effect="blur"
+            wrapperProps={{
+              style: { transitionDelay: "1s" },
+            }}
           />
         </div>
       </div>
