@@ -49,6 +49,7 @@ function OurGalary() {
   ];
   const [page, setPage] = useState(1);
   const [count, setCount] = useState(0);
+
   useEffect(() => {
     setCount(Math.ceil(galleryImages?.length / 4).toFixed(0));
   }, [galleryImages]);
@@ -66,7 +67,6 @@ function OurGalary() {
             <div class="grid gap-4 grid-cols-3 md:grid-cols-4 gap-4 mobile:grid-cols-1">
               {item?.map((image, index) => (
                 <div key={image}>
-                  {/* <img src={image} alt="gallery" loading="lazy" /> */}
                   <LazyLoadImage
                     src={image}
                     alt="gallery"

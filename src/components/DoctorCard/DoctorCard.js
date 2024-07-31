@@ -1,6 +1,5 @@
 import React from "react";
-import img from "../../assests/images/photo.png";
-import { Facebook, Instagram, LinkedIn, Twitter } from "@mui/icons-material";
+import { Facebook, Instagram, LinkedIn } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 function DoctorCard({
   profile,

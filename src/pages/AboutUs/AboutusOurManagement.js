@@ -2,7 +2,6 @@ import React from "react";
 import aboutimg from "../../assests/images/gallery/DSC03617-_1_.webp";
 import aboutimg2 from "../../assests/images/gallery/DSC03773.webp";
 import aboutimg3 from "../../assests/images/gallery/DSC03544.webp";
-import aboutimg1 from "../../assests/images/Rectangle 284.png";
 import aboutimg4 from "../../assests/images/gallery/DJI_0719 .webp";
 import Icon from "../../assests/images/icons/Icon.png";
 import Icon2 from "../../assests/images/icons/Icon (2).png";

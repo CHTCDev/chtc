@@ -17,7 +17,6 @@ import Cardiology from "../../assests/images/icons/Mask group-4.png";
 import Urology from "../../assests/images/icons/Mask group-5.png";
 import Dental from "../../assests/images/icons/Mask group-6.png";
 import Critical from "../../assests/images/icons/Mask group-7.png";
-import About from "../../assests/images/Placeholder1.png";
 import MarqueeComponent from "../../utils/Marquee";
 import DoctorCard from "../../components/DoctorCard/DoctorCard";
 import ReviewCard from "../../components/ReviewCard/ReviewCard";

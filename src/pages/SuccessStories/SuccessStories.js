@@ -1,8 +1,8 @@
 import React from "react";
-import img from "../../assests/images/Rectangle 2771.png";
-import img1 from "../../assests/images/Rectangle 276.png";
-import img2 from "../../assests/images/Rectangle 278.png";
-import img3 from "../../assests/images/Rectangle 279.png";
+// import img from "../../assests/images/Rectangle 2771.png";
+// import img1 from "../../assests/images/Rectangle 276.png";
+// import img2 from "../../assests/images/Rectangle 278.png";
+// import img3 from "../../assests/images/Rectangle 279.png";
 import OurGoalsBanner from "../../utils/OurGoalsBanner";
 import video from "../../assests/videos/WhatsApp Video 2024-07-31 at 1.39.07 PM.webm";
 import video1 from "../../assests/videos/WhatsApp Video 2024-07-31 at 1.39.07 PM (1).webm";
