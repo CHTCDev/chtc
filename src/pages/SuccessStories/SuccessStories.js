@@ -22,43 +22,78 @@ function SuccessStories() {
         </h2>
         <div className="w-full py-4  grid grid-cols-3 gap-4 mobile:grid-cols-1">
           <LazyLoad>
-            <video controls controlsList="nodownload" poster={poster}>
+            <video
+              controls
+              controlsList="nodownload"
+              poster={poster}
+              className="rounded-md"
+            >
               <source src={video2} type="video/webm" />
               Your browser does not support the video tag.
             </video>
           </LazyLoad>
           <LazyLoad>
-            <video controls controlsList="nodownload" poster={poster}>
+            <video
+              controls
+              controlsList="nodownload"
+              poster={poster}
+              className="rounded-md"
+            >
               <source src={video3} type="video/webm" />
               Your browser does not support the video tag.
             </video>
           </LazyLoad>
           <LazyLoad>
-            <video controls controlsList="nodownload" poster={poster}>
+            <video
+              controls
+              controlsList="nodownload"
+              poster={poster}
+              className="rounded-md"
+            >
               <source src={video4} type="video/webm" />
               Your browser does not support the video tag.
             </video>
           </LazyLoad>
           <LazyLoad>
-            <video controls controlsList="nodownload" poster={poster}>
+            <video
+              controls
+              controlsList="nodownload"
+              poster={poster}
+              className="rounded-md"
+            >
               <source src={video5} type="video/webm" />
               Your browser does not support the video tag.
             </video>
           </LazyLoad>
           <LazyLoad>
-            <video controls controlsList="nodownload" poster={poster}>
+            <video
+              controls
+              controlsList="nodownload"
+              poster={poster}
+              className="rounded-md"
+            >
               <source src={video6} type="video/webm" />
               Your browser does not support the video tag.
             </video>
           </LazyLoad>
           <LazyLoad>
-            <video controls controlsList="nodownload" poster={poster}>
+            <video
+              controls
+              controlsList="nodownload"
+              poster={poster}
+              className="rounded-md"
+            >
               <source src={video} type="video/webm" />
               Your browser does not support the video tag.
             </video>
           </LazyLoad>
           <LazyLoad>
-            <video controls controlsList="nodownload" poster={poster}>
+            <video
+              controls
+              controlsList="nodownload"
+              poster={poster}
+              className="rounded-md"
+            >
               <source src={video1} type="video/webm" />
               Your browser does not support the video tag.
             </video>

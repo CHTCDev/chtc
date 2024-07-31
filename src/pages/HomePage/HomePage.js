@@ -34,6 +34,9 @@ import RajeshMehta from "../../assests/images/2.png";
 import JyotsnaMehta from "../../assests/images/3.png";
 import { LiaUserNurseSolid } from "react-icons/lia";
 import { useForm } from "react-hook-form";
+import aboutimg2 from "../../assests/images/gallery/DJI_0719 .webp";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 function HomePage() {
@@ -168,10 +171,14 @@ function HomePage() {
           </button>
         </div>
         <div className="flexcenter w-full">
-          <img
-            src={About}
-            alt="about us"
-            className="w-[90%] h-[90%] object-contain"
+          <LazyLoadImage
+            src={aboutimg2}
+            alt="gallery"
+            className="h-[28rem] w-[90%] object-cover rounded mobile:w-[100%] mobile:h-[15rem]"
+            effect="blur"
+            wrapperProps={{
+              style: { transitionDelay: "1s" },
+            }}
           />
         </div>
       </div>
