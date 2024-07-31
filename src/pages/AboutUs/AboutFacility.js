@@ -13,7 +13,7 @@ function AboutFacility() {
   return (
     <div className="pagecss gap-[3rem]">
       <div className="w-10/12  py-4 pt-[3rem] flex flex-col justify-start items-start gap-2">
-        <h2 className="text-mainHeading font-bold text-navy-blue">
+        <h2 className="text-mainHeading font-bold text-navy-blue mobile:text-seconderyHeading">
           Facilities
         </h2>
         <div className="w-full grid grid-cols-2 gap-4 mobile:grid-cols-1">

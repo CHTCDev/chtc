@@ -14,7 +14,7 @@ function AboutusOurManagement() {
   return (
     <div className="pagecss gap-[3rem]">
       <div className="w-10/12 pt-[2rem]   ">
-        <h2 className="text-mainHeading font-bold text-navy-blue">
+        <h2 className="text-mainHeading font-bold text-navy-blue mobile:text-seconderyHeading">
           Our Management Team
         </h2>
         <div className="w-full py-4 pt-[2rem]   grid grid-cols-2 gap-4 rounded-md mobile:flex mobile:flex-col-reverse">

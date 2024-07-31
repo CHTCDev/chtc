@@ -17,7 +17,7 @@ function SuccessStories() {
   return (
     <div className="pagecss gap-[2rem]">
       <div className="w-10/12 py-4 pt-[2rem]">
-        <h2 className="text-mainHeading font-bold text-navy-blue">
+        <h2 className="text-mainHeading font-bold text-navy-blue mobile:text-seconderyHeading">
           Success Stories
         </h2>
         <div className="w-full py-4  grid grid-cols-3 gap-4 mobile:grid-cols-1">

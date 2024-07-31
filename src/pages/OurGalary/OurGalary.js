@@ -55,7 +55,7 @@ function OurGalary() {
   return (
     <div className="pagecss w-full pt-[3rem] gap-[1rem]">
       <div class="w-11/12">
-        <h2 className="text-mainHeading font-bold text-navy-blue">
+        <h2 className="text-mainHeading font-bold text-navy-blue mobile:text-seconderyHeading">
           Our Gallery
         </h2>
       </div>

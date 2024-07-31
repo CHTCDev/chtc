@@ -53,7 +53,7 @@ function Deparments() {
     <div className="pagecss gap-[3rem]">
       <div className="w-10/12 py-4 pt-[3rem] grid grid-cols-1 gap-4 rounded-md">
         <div className="flex items-start justify-center flex-col gap-2">
-          <h2 className="text-mainHeading mobile:text-seconderyHeading font-bold text-navy-blue">
+          <h2 className="text-mainHeading mobile:text-seconderyHeading font-bold text-navy-blue mobile:text-seconderyHeading">
             General and Laparoscopic surgery:
           </h2>
           <p className="para text-gray">

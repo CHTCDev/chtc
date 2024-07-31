@@ -6,7 +6,7 @@ function AboutOrthopaedic() {
   return (
     <div className="pagecss gap-[2rem] mobile:gap-[1rem]">
       <div className="w-10/12  pt-[2rem] flex flex-col">
-        <h2 className="text-mainHeading font-bold text-navy-blue mobile:text-normalHeading">
+        <h2 className="text-mainHeading font-bold text-navy-blue mobile:text-seconderyHeading">
           Orthopaedic-Centre-of-Excellence
         </h2>
         <div className="w-full py-4  grid grid-cols-2 gap-4 rounded-md mobile:flex mobile:flex-col-reverse">
