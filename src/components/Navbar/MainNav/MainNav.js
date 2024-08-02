@@ -346,7 +346,7 @@ function MainNav() {
                 }
                 onClick={handleClose}
               >
-                Facility
+                Facilities
               </NavLink>{" "}
               <NavLink
                 to="/aboutusourmanagement"
